@@ -7,8 +7,11 @@
 </template>
 
 <script>
+    import AppLayout from "../Shared/AppLayout";
+
     export default {
         name: "Home",
+        layout: AppLayout,
         computed: {
             user() {
                 return this.$page.props.user
