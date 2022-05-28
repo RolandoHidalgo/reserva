@@ -2,12 +2,15 @@
   "name": "inertia_pro",
   "private": true,
   "dependencies": {
+    "@inertiajs/inertia": "^0.11.0",
+    "@inertiajs/inertia-vue": "^0.8.0",
+    "@inertiajs/progress": "^0.2.7",
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
     "@rails/webpacker": "4.3.0",
-    "vue": "^3.2.36",
-    "vue-loader": "^17.0.0",
+    "vue": "2.6.14",
+    "vue-loader": "15.9.6",
     "vue-template-compiler": "^2.6.14"
   },
   "version": "0.1.0"
