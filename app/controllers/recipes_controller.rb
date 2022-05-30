@@ -9,5 +9,7 @@ class RecipesController < ApplicationController
     render inertia: 'Recipe', props: {
         recipe: current_user.recipes.find(params[:id])
     }
+
+
   end
 end
